@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": "Actor",
 "language": "GDScript",
-"path": "res://src/Scripts/Actor.gd"
+"path": "res://src/scripts/Actor.gd"
 } ]
 _global_script_class_icons={
 "Actor": ""
@@ -55,4 +55,5 @@ jump={
 
 [rendering]
 
+environment/default_clear_color=Color( 0.992157, 0.992157, 0.992157, 1 )
 environment/default_environment="res://default_env.tres"
